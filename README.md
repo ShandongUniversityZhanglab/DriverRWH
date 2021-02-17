@@ -11,7 +11,7 @@ install.packages("devtools")
 #the process may take several minutes
 
 library(devtools)
-install_github("jshmsjh/DriverRWH")
+install_github("ShandongUniversityZhanglab/DriverRWH")
 
 #please restart R Console or Rstudio after installation
 library(DriverRWH)
@@ -62,4 +62,4 @@ get_DriverRWH_score(Mutation=luscExampleMutation,string=HumanNet,out_file_dir=my
 ## Contact
 If you have any questions, please do not hesitate to contact us.
 ## Last update
-Tuesday October 13，2020
+Wednesday February 17，2021
