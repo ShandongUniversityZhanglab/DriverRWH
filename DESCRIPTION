@@ -1,0 +1,18 @@
+Package: DriverRWH
+Type: Package
+Title: DriverRWH: discovering driver genes in cancer basing random walks in hypergraph model
+Version: 1.0
+Date: 2020-10-08
+Author: Naiqian Zhang <nqzhang@email.sdu.edu.cn> Chengye Wang <w18669341630@163.com> Junhan Shi <1574074497@qq.com>
+Maintainer: Junhan Shi <1574074497@qq.com>
+Description: DriverRWH prioritizes altered genes by effective integration of somatic mutation data and molecular interaction data. A weighted Hypergraph model is formed by combining the degree of the PPI sub-network composed of each patient's mu-tated genes. Mutated genes are ranked by the random walk on the weighted Hypergraph model.
+Depends: R (>= 3.5.0),
+	igraph,
+	readxl,
+	pROC,
+	caret,
+	ggplot2,
+	e1071
+License: MIT
+Encoding: UTF-8
+RoxygenNote: 7.1.1
