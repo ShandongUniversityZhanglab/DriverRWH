@@ -8,7 +8,7 @@ install.packages("devtools")
 ```
 #### Install from github
 ```r
-#the process may take several minutes
+#the process below may take several minutes
 
 library(devtools)
 install_github("ShandongUniversityZhanglab/DriverRWH")
