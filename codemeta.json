@@ -1,0 +1,54 @@
+{
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
+    "license": "https://spdx.org/licenses/MIT",
+    "dateCreated": "2021-02-19",
+    "datePublished": "2021-02-19",
+    "dateModified": "2021-02-19",
+    "name": "DriverRWH",
+    "version": "1.0.0",
+    "description": "By effective integration of somatic mutation data and molecular interaction data, DriverRWH prioritizes altered genes.A weighted Hypergraph model is formed by combining the degree of the PPI sub-network composed of each patient's mutated genes.Mutated genes are ranked by the random walk on the weighted Hypergraph model.",
+    "programmingLanguage": [
+        "R"
+    ],
+    "softwareRequirements": [
+        "R 4.0.2"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "@id": "http://orcid.org/0000-0003-0800-0016",
+            "givenName": "Naiqian",
+            "familyName": "Zhang",
+            "email": "nqzhang@email.sdu.edu.cn",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "School of Mathematics and Statistics, Shandong University at Weihai"
+            }
+        }
+    ],
+    "contributor": [
+        {
+            "@type": "Person",
+            "@id": "http://orcid.org/0000-0001-8442-0288",
+            "givenName": "Junhan",
+            "familyName": "Shi",
+            "email": "jshmshijh@163.com",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "School of Mathematics and Statistics, Shandong University at Weihai"
+            }
+        },
+        {
+            "@type": "Person",
+            "@id": "http://orcid.org/0000-0001-5033-5376",
+            "givenName": "Chenye",
+            "familyName": "Wang",
+            "email": "w18669341630@163.com",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "School of Mathematics and Statistics, Shandong University at Weihai"
+            }
+        }
+    ]
+}
