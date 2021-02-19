@@ -8,6 +8,8 @@
 #' @param string network data, it should have at least two columns and the first two elements of each row are considered two vertices of an unweighted edge. Other elements in the row will be omitted
 #' @param theta the restart probability at every step of the random walk
 #' @param out_file_dir the directory where you wish to put result of the DriverRWH
+#' @importFrom  igraph graph.data.frame
+#' @importFrom utils write.table
 #' @examples
 #' 
 #' ###the example mutation data is a Lung Squamous Cell Carcinoma Dataset from TCGA
