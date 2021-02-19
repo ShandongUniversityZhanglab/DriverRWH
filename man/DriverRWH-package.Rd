@@ -39,6 +39,6 @@ my_file_dir=getwd()
 #get the result of DriverRWH
 #the output file would be in the out_data folder in the output file directory
 #the default value of theta is 0.2
-get_DriverRWH_score(Mutation=luscExampleMutation[1:1000,],string=HumanNet,out_file_dir=my_file_dir)
+get_DriverRWH_score(Mutation=luscExampleMutation,string=HumanNet,out_file_dir=my_file_dir)
 
 }
