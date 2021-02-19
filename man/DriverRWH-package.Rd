@@ -21,24 +21,25 @@ Maintainer: \tab Junhan Shi \cr
 }
 \keyword{ package }
 \examples{
-###the example mutation data is a Lung Squamous Cell Carcinoma Dataset from TCGA
-###the example network data is HumanNet
-###We will show how to get example DriverRWH Results
-###to use your own mutation data or network data, please refer to get_DriverRWH_score
+### the example mutation data is a Lung Squamous Cell Carcinoma Dataset from TCGA
+### the example network data is HumanNet
+### We will show how to get example DriverRWH Results
+### to use your own mutation data or network data, please refer to get_DriverRWH_score
 library(DriverRWH)
 
-#load the mutation data
+# load the mutation data
 data(luscExampleMutation)
 
-#load the network data
+# load the network data
 data(HumanNet)
 
-#set the current working directory as the output file directory
+# set the current working directory as the output file directory
 my_file_dir=getwd()
 
-#get the result of DriverRWH
-#the output file would be in the out_data folder in the output file directory
-#the default value of theta is 0.2
-get_DriverRWH_score(Mutation=luscExampleMutation,string=HumanNet,out_file_dir=my_file_dir)
+# get the result of DriverRWH
+# the output file would be in the out_data folder in the output file directory
+# the default value of theta is 0.2
+# to save testing time, only half of the genes are used
+get_DriverRWH_score(Mutation=luscExampleMutation[1:8000,],string=HumanNet,out_file_dir=my_file_dir)
 
 }
