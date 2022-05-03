@@ -62,5 +62,3 @@ get_DriverRWH_score(Mutation=luscExampleMutation,string=HumanNet,out_file_dir=my
 ```
 ## Contact
 If you have any questions, please do not hesitate to contact us.
-## Last update
-Friday February 19，2021
